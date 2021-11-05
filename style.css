@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(218, 205, 169);
+    font-family: 'Georgia';
+    text-align: center;
+}
+
+#newspaper {
+    font-size: 8em;
+    margin-bottom: 0;
+    font-family: "Stencil Std";
+}
+
+.boxed {
+    display: inline-block;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    max-width: 1200px;
+}
+
+.wrapper {
+    column-count: 3;
+    column-gap: 20px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.img {
+    float: none;
+    width: 360px;
+    shape-margin: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+#headline {
+    font-size: 5em;
+    margin-bottom: .3em;
+    margin-top: 0;
+    font-family: "Impact";
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+#fudge {
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#elderly {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.initial {
+    font-family: "URW Chancery L";
+    font-size: 1.8em;
+}
